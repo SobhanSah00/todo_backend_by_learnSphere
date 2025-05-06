@@ -237,7 +237,7 @@ const getTodoStats = asyncHandler(async (req, res) => {
     };
     console.log(data);
     res.status(200).json(new ApiResponse("Todo Stats are generated successfully .", data))
-});;
+});
 
 
 export {
