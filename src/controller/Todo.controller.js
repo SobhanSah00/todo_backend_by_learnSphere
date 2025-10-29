@@ -222,6 +222,7 @@ const getTodoStats = asyncHandler(async (req, res) => {
                 ]
             }
         }
+        
     ])
 
     console.log(stats);
